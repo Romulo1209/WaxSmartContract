@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Monster</title>
+
+	<link rel="stylesheet" type="text/css" href="style/index.css">
+
+	<script src="https://unpkg.com/anchor-link@3"></script>
+  	<script src="https://unpkg.com/anchor-link-browser-transport@3"></script>
+  	<script src="https://cdn.jsdelivr.net/npm/eosjs-account-name@2.2.1/lib/index.js" id="id-sc-include-js"></script>
+
+	<script src="js/atomicassets.js"></script>
+	<script src="js/waxjs.js"></script>
+	<script src="js/index.js"></script>
+</head>
+<body>
+	<div class="Login-Holder">
+		<h1 class="Login-Title">Wax Contracts</h1>
+		<h2 class="Login-Account" id="AccountName">Account: None</h2>
+		<h2 class="Login-Type" id="AccountType">Login Type: Cloud</h2>
+		
+		<div class="Login-Content">
+			<ul class="Login-List">
+				<br>
+				<li class="Login-Slot" onclick="selectWallet('Cloud');"><a class="Login-Text">Cloud Wallet</a></li>
+				<li class="Login-Slot" onclick="selectWallet('Anchor');"><a class="Login-Text">Anchor Wallet</a></li>
+
+				<br>
+				<li class="Login-Slot" onclick="login();"><a class="Login-Text">Login</a></li>
+				<li class="Login-Slot" onclick="logout();"><a class="Login-Text">Logout</a></li>
+
+				<br>
+				<li class="Login-Slot" onclick="ConfirmContract('1099597817797','1099597817529','1099695083757');"><a class="Login-Text">Send NFTs Contract</a>
+				<li class="Login-Slot" onclick="WithdrawContract();"><a class="Login-Text">Lost Match Contract</a></li>
+				<li class="Login-Slot" onclick=""><a class="Login-Text">Future Contract</a></li>
+				<li class="Login-Slot" onclick=""><a class="Login-Text">Future Contract</a></li>
+
+				<div class="ContractHolder">
+					<a class="ContractId" id="ContractId"></a>
+				</div>
+			</ul>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,65 @@
+* {
+	margin-right: auto;
+	margin-left: auto;
+}
+.Login-Holder {
+	height: 500px;
+	width: 20%;
+	background: black;
+	border: whitesmoke 3px solid;
+	border-radius: 25px;
+}
+.Login-Holder .Login-Content {
+	width: 95%;
+	height: 65%;
+}
+.Login-Holder .Login-Content .Login-List {
+	width: 90%;
+	height: 100%;
+}
+.Login-Holder .Login-Title {
+	color: white;
+	font-weight: 700px;
+	width: 100%;
+	text-align: center;
+}
+.Login-Holder .Login-Account {
+	color: white;
+	font-weight: 700px;
+	width: 100%;
+	text-align: center;
+}
+.Login-Holder .Login-Type {
+	color: white;
+	font-size: 17px;
+	font-weight: 700px;
+	width: 100%;
+	text-align: center;
+}
+.Login-Holder .Login-Content .Login-Slot {
+	list-style-type: none;
+	width: 90%;
+	text-align: center;
+	cursor: pointer;
+	margin: 3px;
+	background: white;
+	border: whitesmoke 3px solid;
+	border-radius: 15px;
+	position: relative;
+	transform: translate(-10px);
+}
+.Login-Holder .Login-Content .Login-Slot:hover {
+	transition-duration: 0.5s;
+	background: skyblue;
+	border: solid 3px aliceblue;
+}
+.Login-Holder .Login-Content .Login-Slot .Login-Text {
+	width: 100%;
+	height: 100%;
+	color: black;
+	font-weight: 800;
+	cursor: pointer;
+}
+.ContractId {
+	color: white;
+}
